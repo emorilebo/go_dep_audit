@@ -1,4 +1,4 @@
-module github.com/emori/go_dep_audit
+module github.com/emorilebo/go_dep_audit
 
 go 1.21
 

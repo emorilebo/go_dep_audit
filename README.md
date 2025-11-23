@@ -12,7 +12,7 @@ A comprehensive dependency audit tool for Go projects that analyzes supply-chain
 ## Installation
 
 ```bash
-go install github.com/emori/go_dep_audit/cmd/go-dep-audit@latest
+go install github.com/emorilebo/go_dep_audit/cmd/go-dep-audit@latest
 ```
 
 ## Usage
@@ -56,7 +56,7 @@ package main
 import (
     "context"
     "fmt"
-    "github.com/emori/go_dep_audit/pkg/audit"
+    "github.com/emorilebo/go_dep_audit/pkg/audit"
 )
 
 func main() {

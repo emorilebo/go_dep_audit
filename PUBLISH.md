@@ -17,7 +17,7 @@
 
 3. **Publish to Go Proxy**:
    The Go proxy will automatically pick up the new tag. You can force it by visiting:
-   `https://proxy.golang.org/github.com/emori/go_dep_audit/@v/v0.1.0.info`
+   `https://proxy.golang.org/github.com/emorilebo/go_dep_audit/@v/v0.1.0.info`
 
 4. **Create GitHub Release**:
    Go to the GitHub repository -> Releases -> Draft a new release.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/emori/go_dep_audit/pkg/audit"
+	"github.com/emorilebo/go_dep_audit/pkg/audit"
 	"github.com/spf13/cobra"
 )
 

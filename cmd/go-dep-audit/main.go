@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/emori/go_dep_audit/internal/cli"
+	"github.com/emorilebo/go_dep_audit/internal/cli"
 )
 
 func main() {
