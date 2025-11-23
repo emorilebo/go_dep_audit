@@ -33,9 +33,9 @@ jobs:
         GOOS: ${{ matrix.goos }}
         GOARCH: ${{ matrix.goarch }}
       run: |
-        BINARY_NAME=go-dep-audit
+        BINARY_NAME=go-dep-audit-${{ matrix.goos }}-${{ matrix.goarch }}
         if [ "$GOOS" = "windows" ]; then
-          BINARY_NAME=go-dep-audit.exe
+          BINARY_NAME=$BINARY_NAME.exe
         fi
         go build -o build/$BINARY_NAME ./cmd/go-dep-audit
 
